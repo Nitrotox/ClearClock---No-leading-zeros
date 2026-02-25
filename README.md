@@ -1,7 +1,7 @@
 <div align="center"> 
 
 
-#🕒 Clear Clock 
+🕒 Clear Clock 
 
  No leading Zero's - all I did was remove the ugly leading zero's from the clock display. - Nitro
 
