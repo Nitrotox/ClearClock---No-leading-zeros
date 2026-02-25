@@ -77,9 +77,9 @@ PlasmoidItem {
                 property var getTextFormat: {
                     var AMPM = plasmoid.configuration.clockUse24hFormat ? "" : " AP"
                     if (plasmoid.configuration.clockShowSeconds)
-                        return Qt.formatTime(currentDateTime, "hh.mm.ss" + AMPM).split(".").join(plasmoid.configuration.clockSeparator)
+                        return Qt.formatTime(currentDateTime, "h.mm.ss" + AMPM).split(".").join(plasmoid.configuration.clockSeparator)
                     else
-                        return Qt.formatTime(currentDateTime, "hh.mm" + AMPM).split(".").join(plasmoid.configuration.clockSeparator)
+                        return Qt.formatTime(currentDateTime, "h.mm" + AMPM).split(".").join(plasmoid.configuration.clockSeparator)
                 }
 
                 text: getTextFormat
