@@ -1,9 +1,11 @@
 <div align="center"> 
 
-# 🕒 Clear Clock
-A simple but configurable KDE plasmoid/widget for displaying date and time.
 
-[KDE Store **Plasma 5**](https://store.kde.org/p/1666554/) | [KDE Store **Plasma 6**](https://store.kde.org/p/2147871/)
+#🕒 Clear Clock 
+
+ No leading Zero's - all I did was remove the ugly leading zero's from the clock display. - Nitro
+
+A simple but configurable KDE plasmoid/widget for displaying date and time.
 
 If you like this Plasma widget and want to support me, consider getting me a coffee! :D
 
